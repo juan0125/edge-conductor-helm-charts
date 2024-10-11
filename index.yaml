@@ -3,7 +3,27 @@ entries:
   edge-conductor:
   - apiVersion: v2
     appVersion: 2.2.1
-    created: "2024-10-04T06:01:15.125046195Z"
+    created: "2024-10-11T05:49:03.753038755Z"
+    dependencies:
+    - condition: backend.enabled
+      name: backend
+      repository: ""
+    - condition: frontend.enabled
+      name: frontend
+      repository: ""
+    description: A Helm chart for Edge Conductor
+    digest: b872a31ed9e5bc9a654a7b5fdd1195ecb455a0e0930bd143d4e1ac7a00643ac9
+    maintainers:
+    - email: youngjun.jeon@lge.com
+      name: youngjun.jeon
+    name: edge-conductor
+    type: application
+    urls:
+    - https://juan0125.github.io/edge-conductor-helm-charts/edge-conductor-0.2.8.tgz
+    version: 0.2.8
+  - apiVersion: v2
+    appVersion: 2.2.1
+    created: "2024-10-11T05:49:03.751401059Z"
     dependencies:
     - condition: backend.enabled
       name: backend
@@ -19,11 +39,11 @@ entries:
     name: edge-conductor
     type: application
     urls:
-    - s3://s3-an2-meerkat-dev-edgecond-deploy-tools/helm-test/edge-conductor-0.1.8+1.tgz
+    - https://juan0125.github.io/edge-conductor-helm-charts/edge-conductor-0.1.8+1.tgz
     version: 0.1.8+1
   - apiVersion: v2
     appVersion: 2.2.1
-    created: "2024-10-04T06:01:15.125854238Z"
+    created: "2024-10-11T05:49:03.752235303Z"
     dependencies:
     - condition: backend.enabled
       name: backend
@@ -39,11 +59,11 @@ entries:
     name: edge-conductor
     type: application
     urls:
-    - s3://s3-an2-meerkat-dev-edgecond-deploy-tools/helm-test/edge-conductor-0.1.8.tgz
+    - https://juan0125.github.io/edge-conductor-helm-charts/edge-conductor-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v2
     appVersion: 2.2.1
-    created: "2024-10-04T06:01:15.124226927Z"
+    created: "2024-10-11T05:49:03.750576381Z"
     dependencies:
     - condition: backend.enabled
       name: backend
@@ -59,11 +79,11 @@ entries:
     name: edge-conductor
     type: application
     urls:
-    - s3://s3-an2-meerkat-dev-edgecond-deploy-tools/helm-test/edge-conductor-0.1.7.tgz
+    - https://juan0125.github.io/edge-conductor-helm-charts/edge-conductor-0.1.7.tgz
     version: 0.1.7
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2024-10-04T06:01:15.123374079Z"
+    created: "2024-10-11T05:49:03.749740219Z"
     dependencies:
     - condition: backend.enabled
       name: backend
@@ -79,6 +99,6 @@ entries:
     name: edge-conductor
     type: application
     urls:
-    - s3://s3-an2-meerkat-dev-edgecond-deploy-tools/helm-test/edge-conductor-0.1.6.tgz
+    - https://juan0125.github.io/edge-conductor-helm-charts/edge-conductor-0.1.6.tgz
     version: 0.1.6
-generated: "2024-10-04T06:01:15.120669921Z"
+generated: "2024-10-11T05:49:03.748798322Z"
